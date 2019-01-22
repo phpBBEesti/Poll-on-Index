@@ -7,6 +7,7 @@
  * @copyright (c) 2018, kasimi, https://kasimi.net
  * @license GNU General Public License, version 2 (GPL-2.0)
  *
+ * Estonian translation by phpBBestonia.eu <https://www.phpbbestonia.eu>
  */
 
 if (!defined('IN_PHPBB'))
@@ -35,8 +36,8 @@ if (empty($lang) || !is_array($lang))
 // ’ » “ ” …
 
 $lang = array_merge($lang, [
-	'SHOW_POLL_ON_INDEX'					=> 'Show poll on index',
-	'SHOW_POLL_ON_INDEX_NO'					=> 'No',
-	'SHOW_POLL_ON_INDEX_YES_INDEFINITELY'	=> 'Yes, indefinitely',
-	'SHOW_POLL_ON_INDEX_YES_END'			=> 'Yes, until poll ends',
+	'SHOW_POLL_ON_INDEX'					=> 'Kuva küsitlust avalehel',
+	'SHOW_POLL_ON_INDEX_NO'					=> 'Ei',
+	'SHOW_POLL_ON_INDEX_YES_INDEFINITELY'	=> 'Jah, lõputult',
+	'SHOW_POLL_ON_INDEX_YES_END'			=> 'Jah, kuni küsitlus lõppeb',
 ]);

@@ -7,6 +7,7 @@
  * @copyright (c) 2018, kasimi, https://kasimi.net
  * @license GNU General Public License, version 2 (GPL-2.0)
  *
+ * Estonian translation by phpBBestonia.eu <https://www.phpbbestonia.eu>
  */
 
 if (!defined('IN_PHPBB'))
@@ -35,5 +36,5 @@ if (empty($lang) || !is_array($lang))
 // ’ » “ ” …
 
 $lang = array_merge($lang, [
-	'ACL_F_POLL_ON_INDEX' => 'Can show poll on index',
+	'ACL_F_POLL_ON_INDEX' => 'Saab vaadata avalehel küsitlust',
 ]);
